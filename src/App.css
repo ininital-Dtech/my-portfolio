@@ -2,6 +2,7 @@
   background-color: black;
   color: white;
 }
+
 * h1{
   background-color: transparent;
 }
@@ -1337,25 +1338,32 @@ align-items: center;
 .contact-bot{
   display: flex;
   flex: 1;
-  border: 2px solid green;
   margin-top: 0;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 50px;
   gap: 20px;
 }
 .contact-getintouch{
   flex: 1;
-  border: 2px solid yellow;
+   border: 2px solid #2d3748;
+   border-radius: 20px;
+  
 }
 .contact-sendmessage{
   flex: 1;
-  border: 2px solid blue;
+   border: 2px solid #2d3748;
+   border-radius: 20px;
   
 }
 .contact-getintouch-container{
   display: flex;
+  gap: 10px;
+  margin: 10px;
   
+}
+.contact-container p{
+     color: rgb(157, 185, 181);
 }
 .contact-getintouch-content p{
   margin: 0;
@@ -1370,15 +1378,17 @@ align-items: center;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  border: 2px solid orange; 
   align-items: center;
+  margin: 0px 10px;
   
 }
 .contact-information{
-  border: 2px solid grey; 
+   border: 1px solid #2d3748;
+   border-radius: 10px;
   display: flex;
   margin: 0 20px;
   padding: 10px;
+  gap: 7px;
 }
 .contact-information-details p{
   margin: 0;
@@ -1388,20 +1398,21 @@ align-items: center;
   border: 2px solid grey;
   margin: 20px;
 }
-.contact-details{
-  border: 2px solid blue;
-}
+
 .contact-social{
   display: flex;
-  margin: 10px;
+  margin: 10px 20px;
   gap: 10px;
 }
 .contact-message-logo{
-  border: 2px solid red;
+   border: 1px solid #2d3748;
   margin: 0 20px;
   display: flex;
   padding: 10px;
   border-radius: 18px;
+  gap: 10px;
+  height: 25px;
+  
 }
 label{
   
@@ -1410,4 +1421,132 @@ label{
 .contact-input{
   border: none;
   width: 100%;
+}
+.contact-logo-message{
+  width: 20px;
+  height: 20px;
+  filter: drop-shadow(0 0 4px #38bdf8);
+  background-color: transparent;
+  filter: brightness(0) invert(1);
+}
+input:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.contact-logo-message-1{
+  width: 30px;
+  height: 25px;
+  filter: drop-shadow(0 0 4px #38bdf8);
+  background-color: transparent;
+  filter: brightness(0) invert(1);
+}
+.contact-textarea{
+  width: 100%;
+  
+  border: none;
+}
+.contact-textarea:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.contact-message-logo-textarea{
+  display: flex;
+   border: 1px solid #2d3748;
+  margin: 0 20px;
+  border-radius: 18px;
+  height: 150px;
+  padding: 10px;
+  gap: 10px;
+}
+.contact-submit-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 70%;
+  height: 40px;
+  border-radius: 20px;
+  gap: 10px;
+  background-color: orangered;
+}
+.contact-submit-btn img{
+  height: 20px;
+  width: 20px;
+  filter: brightness(0) invert(-1);
+  background-color: transparent;
+}
+.contact-submit-btn span{
+  color: black;
+  font-weight: 700;
+}
+.contact-shield{
+  display: flex;
+  margin: auto;
+  width: max-content;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contact-shield img{
+  height: 18px;
+  width: 18px;
+  background-color: transparent;
+  filter: brightness(0) invert(1);
+  
+  
+  
+}
+.contact-shield p{
+  font-size:  12px;
+}
+.contact-main-logo{
+  height: 45px;
+  width: 45px;
+  background-color: transparent;
+ filter: brightness(0) saturate(100%)
+          invert(45%) sepia(99%)
+          saturate(2500%)
+          hue-rotate(5deg)
+          brightness(103%); 
+  border-radius: 18px;
+  
+}
+.contact-sub-logo{
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+ filter: brightness(0) saturate(100%)
+          invert(45%) sepia(99%)
+          saturate(2500%)
+          hue-rotate(5deg)
+          brightness(103%); 
+  border-radius: 18px;
+  
+}
+.contact-paste{
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  filter: brightness(0) invert(1);
+}
+.contact-followme{
+  color: orangered;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+.contact-p{
+  margin: 0 20px;
+}
+.contact-social-logo img{
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  filter: brightness(0) invert(1);
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+
 }

@@ -65,12 +65,7 @@ function Porfolio() {
             ><img src ={contact} alt="home" className='nav-icon'/>
               Message
             </li>
-            <li 
-              className={selectedId === 6 ? 'nav-item active' : 'nav-item'} 
-              onClick={() => setselectId(6)}
-            ><img src ={settings} alt="home" className='nav-icon'/>
-              Settings
-            </li>
+          
           </ul>
         </div>
         <div className='social-icon-container'>
@@ -99,9 +94,7 @@ function Porfolio() {
           {selectedId ===5 &&(
             <h1>Get in Touch</h1> 
           )}
-          {selectedId ===6 &&(
-            <h1>Settings</h1>
-          )}
+         
 
         </div>
         
@@ -127,9 +120,8 @@ function Porfolio() {
             <Contact/>
           )}
 
-          {selectedId === 6 && (
-        <Settings/>
-          )}
+          
+          
         </div>
       </div>
     </div>
