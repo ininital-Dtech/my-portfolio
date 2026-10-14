@@ -18,7 +18,7 @@ function Contact(){
     return(
         <div className="contact-container">
             <div className="contact-top">
-                <h1>Let's Connect</h1>
+                <h1>Let's <span className='text-orange'>Connect</span></h1>
                 <p>I'm always interested in learning, building and working <br/>
                 on new ideas. Whether you have a project, opportunity, <br/>
                 or just want to stay hello, feel free to reach out.</p>
