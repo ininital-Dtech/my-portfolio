@@ -11,16 +11,7 @@ function Project(){
             Each projects represents a step in my journey to become a better developer<br/>
             and creator.</p>
             </div>
-            <div className="project-keyword">
-                <div className="project-keyword-1">
-                    <div className="project-keywoard-content"><span>All</span></div>
-                    <div className="project-keywoard-content"><span>Web & Mobile</span></div>
-                    <div className="project-keywoard-content"><span>Creative</span></div>
-                    <div className="project-keywoard-content"><span>Game & Content</span></div>
-                    <div className="project-keywoard-content"><span>Personal</span></div>
-                </div>
-                <div className="project-search"><input type="text" placeholder="Search Project..."></input></div>
-            </div>
+           
             <div className="project-container">
                 <div className="project-feature">
                     <div className="project-feature-1">
@@ -55,52 +46,50 @@ function Project(){
                 <div className="project-side">
                     <div className="project-side-1">
                         <div className='project-image'></div>
-                             <h2>RidersConnect</h2>
-                            <p>A motorcycle rider community application focused 
-                            on group location sharing,communication and tourism.</p>
+                             <h2>Portfolio Website</h2>
+                            <p>A responsive personal portfolio website developed with React to showcase my skills, projects, and creative work through a modern and user-friendly design..</p>
                             <div className="project-tech">
-                                <span className="project-tech-stack">Flutter</span>
-                                <span className="project-tech-stack">Laravel</span>
+                                <span className="project-tech-stack">React</span>
+                                <span className="project-tech-stack">HTML</span>
+                                <span className="project-tech-stack">Javasript</span>
                                 
-                                <span className="project-tech-stack">Reverb</span>
+                                <span className="project-tech-stack">CSS</span>
                             </div>
                             <button className="project-view-btn"><span>View Project</span><img src={arrow} className='arrow-icon'/></button>
                     </div>
                     <div className="project-side-1">
-                        <div className='project-image'></div>
-                             <h2>RidersConnect</h2>
-                            <p>A motorcycle rider community application focused 
-                            on group location sharing,communication and tourism.</p>
+                        <div className='project-image-1'></div>
+                             <h2>CoffeeShop Website</h2>
+                            <p>A PHP and MySQL coffee shop website featuring CRUD operations, order management, automatic price calculation, and receipt generation.</p>
                             <div className="project-tech">
-                                <span className="project-tech-stack">Flutter</span>
-                                <span className="project-tech-stack">Laravel</span>
-                              
-                                <span className="project-tech-stack">Reverb</span>
+                                <span className="project-tech-stack">PHP</span>
+                                <span className="project-tech-stack">MySQL</span>
+                                <span className="project-tech-stack">CSS</span>
+                                <span className="project-tech-stack">Javascript</span>
+                                <span className="project-tech-stack">HTML</span>
                             </div>
                             <button className="project-view-btn"><span>View Project</span><img src={arrow} className='arrow-icon'/></button>
                     </div>
                     <div className="project-side-1">
-                        <div className='project-image'></div>
-                             <h2>RidersConnect</h2>
-                            <p>A motorcycle rider community application focused 
-                            on group location sharing,communication and tourism.</p>
+                        <div className='project-image-2'></div>
+                             <h2>Video Editing</h2>
+                            <p>Creative video editing with smooth transitions, visual effects, and engaging storytelling.</p>
                             <div className="project-tech">
-                                <span className="project-tech-stack">Flutter</span>
-                                <span className="project-tech-stack">Laravel</span>
+                                <span className="project-tech-stack">Capcut</span>
+                                <span className="project-tech-stack">Photoshop</span>
                             
-                                <span className="project-tech-stack">Reverb</span>
+                                <span className="project-tech-stack">ChatGPT</span>
                             </div>
                             <button className="project-view-btn"><span>View Project</span><img src={arrow} className='arrow-icon'/></button>
                     </div>
                     <div className="project-side-1">
-                        <div className='project-image'></div>
-                            <h2>RidersConnect</h2>
-                            <p>A motorcycle rider community application focused 
-                            on group location sharing,communication and tourism.</p>
+                        <div className='project-image-3'></div>
+                            <h2>Animation 2D/3D</h2>
+                            <p>Experimenting with 2D animation using spine 2D for game assets and mini-games.</p>
                             <div className="project-tech">
-                                <span className="project-tech-stack-2">Flutter</span>
-                                <span className="project-tech-stack-2">Laravel</span>
-                                <span className="project-tech-stack-2">Reverb</span>
+                                <span className="project-tech-stack-2">Spine2D</span>
+                                <span className="project-tech-stack-2">Photoshop</span>
+                                
                             </div>
                             <button className="project-view-btn"><span>View Project</span><img src={arrow} className='arrow-icon'/></button>
                     </div>

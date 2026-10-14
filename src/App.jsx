@@ -76,29 +76,9 @@ function Porfolio() {
         </div>
       </div>
 
-      {/* Right Sub-Container (Header & Dynamic Main Content) */}
-      <div className="container-sub">
-        <div className="container-header">
-          {selectedId ===1 &&(
-            <h1>Home Overview</h1>
-          )}
-          {selectedId ===2 &&(
-            <h1>About Me</h1>
-          )}
-          {selectedId ===3 &&(
-            <h1>My Projects</h1>
-          )}
-          {selectedId ===4 &&(
-            <h1>My Skills and Experience</h1>
-          )}
-          {selectedId ===5 &&(
-            <h1>Get in Touch</h1> 
-          )}
-         
 
-        </div>
+      <div className="container-sub">
         
-        {/* Dynamic Main Content based on selectedId */}
         <div className="container-main-content">
           {selectedId === 1 && (
             <Home />

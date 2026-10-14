@@ -208,19 +208,18 @@
                                 </div>
                             </div>
                                                         <div className='home-project-content'>
-                                <div className='home-project-picture'>
+                                <div className='home-project-picture-1'>
                                   
                                 </div>
                                 <div className='home-project-details'>
-                                    <h3>RidersConnect</h3>
-                                    <span>RidersConnect is a real-time motorcycle group
-                                         navigation app built with Flutter, Laravel, and 
-                                         Google Maps API. It uses WebSockets to deliver live GPS
-                                          tracking and keep rider groups connected on the road.</span>
+                                    <h3>Game & Content Specialist</h3>
+                                    <span>Developing and editing game-related content, including video production, photo manipulation, 2D/3D animation, and visual asset creation to 
+                                        support game development and deliver engaging player experiences.</span>
                                           <div className='home-tech-stack'>
-                                            <h4>Flutter</h4>
-                                            <h4>Laravel</h4>
-                                            <h4>Google Maps API</h4>
+                                            <h4>Photoshop</h4>
+                                            <h4>Capcut</h4>
+                                            <h4>Spine2D</h4>
+                                            <h4>ChatGPT</h4>
                                             
                                           </div>
                                           <button className='btn-view-project'><span>View Project<img src={arrow} alt='arrow' className='arrow-icon'/></span></button>

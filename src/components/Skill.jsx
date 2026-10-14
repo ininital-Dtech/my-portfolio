@@ -10,12 +10,25 @@ import bar from '../assets/icons/bar.svg';
 import goal from '../assets/icons/goal.svg';
 import photoshop from '../assets/icons/photoshop.svg';
 import check from '../assets/icons/check.svg';
+import capcut from '../assets/icons/capcut.svg';
+import canva from '../assets/icons/canva.svg';
+import blender from '../assets/icons/blender.svg';
+import spine from '../assets/spine.png';
+import git from '../assets/icons/git.svg';
+import github from '../assets/icons/github.svg';
+import vscode from '../assets/icons/vscode.svg';
+import paint from '../assets/icons/paint.svg';
+import game from '../assets/icons/game.svg';
+import settings from '../assets/icons/settings.svg';
+import person from '../assets/icons/person.svg';
+
+
 
 function Skill(){
     return(
         <div className="skills-container">
             <div className="skills-container-1">
-                <h1>Skills and Technology</h1>
+                <h1 className='text-orange'>Skills and Technology</h1>
                 <p>Here are the tools, technology, and skills I use to build applications,<br/>
                 create digital content, and bring ideas to life.</p>
                 <span>Always learning, Always improving.</span>
@@ -138,7 +151,7 @@ function Skill(){
                         <div className="skills-creative-tools-1">
                              <div className="skills-tools-content-1">
                                 <div className='skills-tools-2'>
-                                    <img src={bar} alt='logo'/>
+                                    <img src={paint} alt='logo'/>
                                     <div className='skills-tools-content-2'>
                                         <span>Creative & Media Tools</span>
                                         <p>Creating and editing visual content, videos and digital assets
@@ -153,28 +166,24 @@ function Skill(){
                                 </div>
                                 
                                 <div className='skills-creative-container-1'>
-                                    <img src=''/>
+                                    <img src={capcut} className='skills-logo-svg'/>
                                     <span>Capcut</span>
                                     <p>Video Editing</p>
                                 </div>
                                 
                                 <div className='skills-creative-container-1'>
-                                    <img src=''/>
+                                    <img src={canva} className='skills-logo-svg'/>
                                     <span>Canva</span>
                                     <p>Graphic Design</p>
                                 </div>
-                                <div className='skills-creative-container-1'>
-                                    <img src=''/>
-                                    <span>Photoshop</span>
-                                    <p>Photo Editing</p>
-                                </div>
+                               
                                 
                                 </div>
                             </div>
                             <div className="skills-tools-content-1">
-                                 <div className="skills-tools-content-1">
+                                 
                                 <div className='skills-tools-2'>
-                                    <img src={bar} alt='logo'/>
+                                    <img src={game} alt='logo'/>
                                     <div className='skills-tools-content-2'>
                                         <span>Game & Animation</span>
                                         <p>Creating and editing visual content, videos and digital assets
@@ -182,34 +191,30 @@ function Skill(){
                                     </div>
                                 </div>
                                <div className='skills-creative-container'>
-                                <div className='skills-creative-container-1'>
-                                    <img src={photoshop}/>
+                                <div className='skills-creative-container-1 '>
+                                    <img src={spine} className='skills-spine'/>
                                     <span>Spine2d</span>
                                     <p>2D Animation</p>
                                 </div>
                                 
                                 <div className='skills-creative-container-1'>
-                                    <img src=''/>
+                                    <img src={blender}/>
                                     <span>Blender</span>
                                     <p>3D Modeling</p>
                                 </div>
                                 
-                                <div className='skills-creative-container-1'>
-                                    <img src=''/>
-                                    <span>Unreal Engine</span>
-                                    <p>Game Endinge </p>
-                                </div>
+                                
                                 
                                 
                                 </div>
                             </div>
-                            </div>
+                            
                         </div>
                         <div className="skills-creative-tools-1">
-                            <div className="skills-tools-content-1">
+                            
                                  <div className="skills-tools-content-1">
                                 <div className='skills-tools-2'>
-                                    <img src={bar} alt='logo'/>
+                                    <img src={settings} alt='logo'/>
                                     <div className='skills-tools-content-2'>
                                         <span>Other Tools & Platform</span>
                                         <p>Creating and editing visual content, videos and digital assets
@@ -218,33 +223,29 @@ function Skill(){
                                 </div>
                                <div className='skills-creative-container'>
                                 <div className='skills-creative-container-1'>
-                                    <img src={photoshop}/>
+                                    <img src={git} className='skills-logo-svg'/>
                                     <span>Git</span>
                                     <p>Version Control</p>
                                 </div>
                                 
                                 <div className='skills-creative-container-1'>
-                                    <img src=''/>
+                                    <img src={github} className='skills-logo-svg'/>
                                     <span>Github</span>
                                     <p>Collaboration</p>
                                 </div>
                                 
                                 <div className='skills-creative-container-1'>
-                                    <img src=''/>
+                                    <img src={vscode}/>
                                     <span>VS Code</span>
                                     <p>Code Editor</p>
                                 </div>
-                                <div className='skills-creative-container-1'>
-                                    <img src=''/>
-                                    <span>Photoshop</span>
-                                    <p>Photo Editing</p>
-                                </div>
+                              
                                 
-                                </div>
+                                
                             </div>
                             </div>
                             <div className="skills-tools-content-1">
-                               <div className='skills-user'> <img src={bar}/><span>Soft Skills</span></div>
+                               <div className='skills-user'> <img src={person}/><span>Soft Skills</span></div>
                                <div className='skills-soft-skills'> <img src={check} alt='check'/><p>Problem Solving</p></div>
                                <div className='skills-soft-skills'> <img src={check}/><p>Team Collaboration</p></div>
                                <div className='skills-soft-skills'> <img src={check}/><p>Adaptability</p></div>
@@ -263,7 +264,7 @@ function Skill(){
                             but about how you can use them
                             to create something meaningful.
                         </p>
-                        <button><span>View My Project</span></button>
+                        <button className='skills-btn'><span className='text-orange'>View My Project</span></button>
                     </div>
                     </div>
                 </div>
