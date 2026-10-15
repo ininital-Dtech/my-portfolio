@@ -2362,3 +2362,24 @@ form{
 @media (prefers-reduced-motion: reduce) {
   .home-skills-icon-track { animation: none; }
 }
+html, body, #root { min-height: 100%; margin: 0; }
+
+.container-main {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.container-main-content { align-items: stretch; }   
+
+.home-container,
+.about-main-container,
+.project-container-main,
+.skills-container,
+.contact-container {
+  height: auto;          
+  min-height: 100%;
+  align-self: stretch;
+}
+@media (min-width: 769px) {
+  .container-sidepanel { position: sticky; top: 0; height: 100vh; align-self: flex-start; }
+}
