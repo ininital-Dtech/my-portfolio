@@ -24,7 +24,7 @@ import person from '../assets/icons/person.svg';
 
 
 
-function Skill(){
+function Skill({ onViewProject }){
     return(
         <div className="skills-container">
             <div className="skills-container-1">
@@ -264,7 +264,9 @@ function Skill(){
                             but about how you can use them
                             to create something meaningful.
                         </p>
-                        <button className='skills-btn'><span className='text-orange'>View My Project</span></button>
+                        <button className='skills-btn' onClick={onViewProject}>
+    <span className='text-orange'>View My Project</span>
+</button>
                     </div>
                     </div>
                 </div>

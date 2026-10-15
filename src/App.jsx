@@ -74,14 +74,18 @@ function Porfolio() {
           <img src ={linked} alt="home" className='nav-icon'/>
           <img src ={tiktok} alt="home" className='nav-icon'/>
         </div>
+        <div className='credits'><span>© 2026 Jobert Adrino</span>
+        <p>All rights reserved.</p>
+        </div>
       </div>
+      
 
 
       <div className="container-sub">
         
         <div className="container-main-content">
           {selectedId === 1 && (
-            <Home />
+            <Home  onViewProject={()=> setselectId(3)}/>
           )}
 
           {selectedId === 2 && (
@@ -93,8 +97,8 @@ function Porfolio() {
           )}
 
           {selectedId === 4 && (
-            <Skill/>
-          )}
+          <Skill onViewProject={() => setselectId(3)} />
+          )}  
 
           {selectedId === 5 && (
             <Contact/>

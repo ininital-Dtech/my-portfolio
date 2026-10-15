@@ -1,4 +1,4 @@
-import profileimage from '../assets/profile-image.jpg';
+
 import education from '../assets/icons/education.svg';
 import message from '../assets/icons/message.svg';
 import phone from '../assets/icons/phone.svg';
@@ -25,10 +25,10 @@ function About(){
             <div className="about-top-container">
                 <div className="about-top-container-1">
                     <h1>Get to Know Me</h1>
-                    <span>I'm a Computer Science student and aspiring full-stack developer<br/> with a passion for building digital solutions and creative experiences.<br/> I enjoy developing applications, solving problems, and learning new technologies.<br/>
+                    <p>I'm a Computer Science student and aspiring full-stack developer<br/> with a passion for building digital solutions and creative experiences.<br/> I enjoy developing applications, solving problems, and learning new technologies.<br/>
                     <br></br>
 
-Beyond coding, I also work with video editing and photo editing, <br/>allowing me to combine my technical and creative skills to bring ideas to life.</span>
+Beyond coding, I also work with video editing and photo editing, <br/>allowing me to combine my technical and creative skills to bring ideas to life.</p>
                 </div>
                 <div className="about-top-container-2">
                     <img src={quote} className='about-icon'/>

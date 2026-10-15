@@ -13,7 +13,7 @@
         import tailwind from '../assets/icons/tailwind.svg';
         import arrow from '../assets/icons/right-arrow.svg';
         import download from '../assets/icons/download.svg';
-        function Home(){
+        function Home( {onViewProject}){
             return(
                 <div className="home-container">
                     <div className="home-intro">
@@ -26,7 +26,7 @@
                         photo editing, and animation. I learn by building real projects and <br/> 
                         turning ideas into something people can use.</p>
                         <br/><div className='home-view-download'>
-                    <h3>View My Project <img src={arrow} alt='arrow' className='arrow-icon'/></h3>
+                        <button onClick={onViewProject}> <h3>View My Project <img src={arrow} alt='arrow' className='arrow-icon'/></h3></button>  
                         <h3>Download Resume <img src={download} alt='arrow' className='arrow-icon'/></h3>
                         </div> <br/>
                         <div className='home-skills-icon-main'>
@@ -185,7 +185,9 @@
                             <h3><span className='text-orange'>FEATURED PROJECTS</span></h3>
                             <div className='home-text-1'>
                             <h1>My Recent Work</h1>
-                            <h3 className='home-arrow'><span className='text-orange'>View All Projects <img src={arrow} alt='arrow' className='arrow-icon'/> </span></h3>
+                            <button onClick={onViewProject} className='home-arrow'>
+                                <span className='text-orange'>View All Projects <img src={arrow} alt='arrow' className='arrow-icon'/> </span>
+                            </button>
                             </div></div>
                         <div className='home-project-2'>
                             <div className='home-project-content'>
