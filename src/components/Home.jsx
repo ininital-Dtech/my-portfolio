@@ -47,7 +47,7 @@
                         turning ideas into something people can use.</p>
                         <br/><div className='home-view-download'>
                         <button onClick={onViewProject}> <h3>View My Project <img src={arrow} alt='arrow' className='arrow-icon'/></h3></button>  
-                        <h3>Download Resume <img src={download} alt='arrow' className='arrow-icon'/></h3>
+                        <a href='/Jobert_Resume.pdf' download="Jobert_Resume.pdf"><h3>Download Resume <img src={download} alt='arrow' className='arrow-icon'/></h3></a>
                         </div> <br/>
                         <div className='home-skills-icon-main'>
                             <div className='home-skills-icon-track'>  
