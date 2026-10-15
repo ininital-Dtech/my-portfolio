@@ -63,7 +63,7 @@ function Porfolio() {
               className={selectedId === 5 ? 'nav-item active' : 'nav-item'} 
               onClick={() => setselectId(5)}
             ><img src ={contact} alt="home" className='nav-icon'/>
-              Message
+              Contact
             </li>
           
           </ul>
