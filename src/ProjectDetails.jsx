@@ -9,7 +9,7 @@ function ProjectDetails({ project, onBack }) {
       {/* Banner (reuses your Projects header background) */}
       <div className="project-container-top project-details-banner">
         <button className="project-back-btn" onClick={onBack}>
-          ← Back to Projects
+          ← Back
         </button>
         <span className="project-details-category">{project.category}</span>
         <h1>

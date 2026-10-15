@@ -19,6 +19,7 @@ import game from '../assets/icons/game.svg';
 import working from '../assets/icons/working.svg';
 import hyperbondlogo from '../assets/icons/hyperbond-studio-logo.png';
 
+
 function About(){
     return(
         <div className="about-main-container">

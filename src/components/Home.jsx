@@ -13,7 +13,27 @@
         import tailwind from '../assets/icons/tailwind.svg';
         import arrow from '../assets/icons/right-arrow.svg';
         import download from '../assets/icons/download.svg';
+        import './Project';
+        import { useState } from "react";
+        import projects from "../projectsData";
+        import ProjectDetails from "../ProjectDetails";
+
         function Home( {onViewProject}){
+              const [selectedProject, setSelectedProject] = useState(null);
+
+  const openProject = (project) => {
+    setSelectedProject(project);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const closeProject = () => {
+    setSelectedProject(null);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  if (selectedProject) {
+    return <ProjectDetails project={selectedProject} onBack={closeProject} />;
+  }
             return(
                 <div className="home-container">
                     <div className="home-intro">
@@ -206,7 +226,7 @@
                                             <h4>Google Maps API</h4>
                                             
                                           </div>
-                                          <button className='btn-view-project'><span>View Project<img src={arrow} alt='arrow' className='arrow-icon'/></span></button>
+                                          <button className='btn-view-project' onClick={() => openProject(projects.riders)}><span>View Project<img src={arrow} alt='arrow' className='arrow-icon'/></span></button>
                                 </div>
                             </div>
                                                         <div className='home-project-content'>
@@ -224,7 +244,7 @@
                                             <h4>ChatGPT</h4>
                                             
                                           </div>
-                                          <button className='btn-view-project'><span>View Project<img src={arrow} alt='arrow' className='arrow-icon'/></span></button>
+                                          <button className='btn-view-project' onClick={() => openProject(projects.specialist)}><span>View Project<img src={arrow} alt='arrow' className='arrow-icon'/></span></button>
                                 </div>
                             </div>
                            

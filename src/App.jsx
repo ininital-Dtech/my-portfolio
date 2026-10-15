@@ -68,11 +68,11 @@ function Porfolio() {
           
           </ul>
         </div>
-        <div className='social-icon-container'>
-          <img src ={github} alt="home" className='nav-icon'/>
-          <img src ={facebook} alt="home" className='nav-icon'/>
-          <img src ={linked} alt="home" className='nav-icon'/>
-          <img src ={tiktok} alt="home" className='nav-icon'/>
+        <div className='social-icon-container-1'>
+          <a href='https://github.com/ininital-Dtech' target="_blank" rel="noopener noreferrer" className='social-icon-container'><img src ={github} alt="home" className='nav-icon'/> </a>
+          <a href='https://web.facebook.com/ANTiPRO17' target="_blank" rel="noopener noreferrer" className='social-icon-container'><img src ={facebook} alt="home" className='nav-icon'/></a>
+          <a href='https://www.linkedin.com/in/jobert-adrino-5b2065408/?isSelfProfile=true' target="_blank" rel="noopener noreferrer" className='social-icon-container'><img src ={linked} alt="home" className='nav-icon'/></a>
+          <a href='https://www.tiktok.com/@codewithbert' target="_blank" rel="noopener noreferrer" className='social-icon-container'><img src ={tiktok} alt="home" className='nav-icon'/></a>
         </div>
         <div className='credits'><span>© 2026 Jobert Adrino</span>
         <p>All rights reserved.</p>
