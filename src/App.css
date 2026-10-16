@@ -1687,8 +1687,8 @@ align-items: center;
   padding: 10px;
   border-radius: 18px;
   gap: 10px;
-  height: 25px;
   background-color: #010713;
+  min-height: 25px;
   
 }
 label{
@@ -1698,6 +1698,8 @@ label{
 .contact-input{
   border: none;
   width: 100%;
+  font-size: 16px;
+  line-height: 1.4;
 }
 .contact-logo-message{
   width: 20px;
