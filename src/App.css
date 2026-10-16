@@ -2387,3 +2387,11 @@ html, body, #root { min-height: 100%; margin: 0; }
 @media (min-width: 769px) {
   .container-sidepanel { position: sticky; top: 0; height: 100vh; align-self: flex-start; }
 }
+  .container-sidepanel {
+    position: sticky;
+    top: 0;
+    align-self: stretch;
+    height: auto;
+   
+    overflow-y: auto; 
+  }
