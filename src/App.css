@@ -2392,6 +2392,7 @@ html, body, #root { min-height: 100%; margin: 0; }
     top: 0;
     align-self: stretch;
     height: auto;
+    min-width: 200px;
    
     overflow-y: auto; 
   }
